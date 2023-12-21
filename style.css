@@ -1,0 +1,141 @@
+footer{
+    background-color: rgb(19, 89, 148);
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+header{
+    background-color: rgb(19, 89, 148);
+}
+.glava{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+   height: 900px;
+}
+.header-fix{
+    align-items: center;
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+    height: 70px;
+    font-size: 25px;
+
+}
+.header-fix a{
+ text-decoration: none;
+ color: white;
+}
+.header-fix a:hover{
+    color: rgb(0, 225, 255);
+}
+body{
+    color: black;
+    margin: 0 auto;
+   
+}
+#obomne, #myjob, #Kontact{
+  text-align: center;
+ 
+}
+.obomne2{
+    font-size: 22px;
+    display: flex; 
+    text-align: center;
+}
+.sites{
+    border: 2px solid rgb(19, 89, 148);
+    width: 650px;
+border-radius: 15px ;
+}
+.sites12{
+    display: flex;
+    gap: 15px;
+    justify-content: space-around;
+}
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 30px;
+    gap: 10px;
+
+}
+input{
+    background-color: aquamarine;
+    color: black;
+    border: 1px solid rgb(19, 89, 148);
+    padding: 30px;
+    width: 400px;
+    font-size: 20px;
+    border-radius: 15px;
+}
+
+textarea{
+    background-color: aquamarine;
+    color: black;
+    border: 1px solid rgb(19, 89, 148);
+    padding: 25px;
+    width: 300px;
+    font-size: 20px;
+    border-radius: 15px;
+}
+button{
+    background-color: aquamarine;
+    color: black;
+    border: 1px solid rgb(19, 89, 148);
+    padding: 30px;
+    width: 450px;
+    font-size: 20px;
+    border-radius: 15px;
+    margin-bottom: 50px ;
+}
+button:hover{
+    background-color: rgb(19, 89, 148);
+    color: black;
+    border: 1px solid rgb(19, 89, 148);
+    padding: 30px;
+    width: 450px;
+    font-size: 20px;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: 2s;
+}
+html {
+    background-image: url(img/snowflakes-and-bright-lights.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+  .main2{
+    background-color: rgb(204, 204, 204);
+  }
+  h2{
+    padding-top: 80px;
+    font-size: 40px;
+  }
+  .mid h3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .mid{
+display: flex;
+flex-direction: row;
+justify-content: center;
+text-align: center;
+
+  }
+  .mid img{
+    width: 100px;
+
+  }
